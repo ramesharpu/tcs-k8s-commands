@@ -1,5 +1,5 @@
 |	Sl. No.	|	explaination	|	commands	|
-| --- | --- | --- |
+| :---: | --- | --- |
 |	1	|	to create a pod	|	kubectl run nginx-demo --image=nginx	|
 |	2	|	to create deployment	|	kubectl create deployment depl --image=nginx	|
 |	3	|	to create deployment with replicas	|	kubectl create deployment depl --image=nginx --replicas=5	|
