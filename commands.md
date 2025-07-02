@@ -25,5 +25,6 @@
 |	23	|	to delete a resource using the file	|	kubectl delete -f <file-name.yaml>	|
 | 24 | service | to connect via cluster plane | kubectl expose deployment depl --port=80 --target-port=80 --type=ClusterIP | 
 | 25 | | to connect via node machines | kubectl expose deployment depl --port=80 --target-port=80 --type=NodePort | 
-| 25 | service | to connect via loadbalancer | kubectl expose deployment depl --port=80 --target-port=80 --type=LoadBalancer | 
-| 24 | service | to connect via external name| kubectl expose deployment depl --port=80 --target-port=80 --type=ExternalName | 
+| 25 | | to connect via loadbalancer | kubectl expose deployment depl --port=80 --target-port=80 --type=LoadBalancer | 
+| 26 | | to connect via external name| kubectl expose deployment depl --port=80 --target-port=80 --type=ExternalName | 
+| 27 | |  to expose the created service in minikube | minikube service service-name
