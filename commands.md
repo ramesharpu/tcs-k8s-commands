@@ -27,4 +27,4 @@
 | 25 | | to connect via node machines | kubectl expose deployment depl --port=80 --target-port=80 --type=NodePort | 
 | 26 | | to connect via loadbalancer | kubectl expose deployment depl --port=80 --target-port=80 --type=LoadBalancer | 
 | 27 | | to connect via external name| kubectl expose deployment depl --port=80 --target-port=80 --type=ExternalName | 
-| 28 | |  to expose the created service in minikube | minikube service service-name
+| 28 | |  to expose the created service in minikube | minikube service service-name | 
